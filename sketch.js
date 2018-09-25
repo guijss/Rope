@@ -4,7 +4,7 @@ let g;
 let dragging;
 
 function setup() {
-  createCanvas(800,800);
+  createCanvas(windowWidth,windowHeight);
   for (var i = 0; i < 50; i++) {
       p[i] = new particle(400+(10*i),50,2);
       if (i>0) {
